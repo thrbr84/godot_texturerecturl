@@ -19,9 +19,9 @@ Um addon TextureRectUrl para carregar imagens de uma url:
 ----------
 
 ### Demonstração (PT-BR)
-- https://www.youtube.com/watch?v=[VIDEO]
+- https://www.youtube.com/watch?v=rxrOaZJn-Ds
 
-[![Video com a explicação](https://img.youtube.com/vi/[VIDEO]/0.jpg)](https://www.youtube.com/watch?v=[VIDEO])
+[![Video com a explicação](https://img.youtube.com/vi/rxrOaZJn-Ds/0.jpg)](https://www.youtube.com/watch?v=rxrOaZJn-Ds)
 
 
 ----------

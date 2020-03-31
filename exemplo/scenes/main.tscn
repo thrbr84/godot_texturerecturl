@@ -106,7 +106,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-everCache = true
 preloadImage = false
 progressbarRect = Rect2( 0, 0, 0, 30 )
 progressbarColor = Color( 0.984314, 0.0392157, 0.0392157, 0.682353 )

@@ -7,7 +7,7 @@ A TextureRectUrl addon to load images from a url
 
 ----------
 
-# Funcionalidades:
+# Features:
 - Load image types: JPG/JPEG - PNG - WEBP e BASE64
 - Preload the imagem in editor
 - Ever load from cache after the first download of the image
@@ -19,9 +19,9 @@ A TextureRectUrl addon to load images from a url
 ----------
 
 ### Demonstration (PT-BR)
-- https://www.youtube.com/watch?v=[VIDEO]
+- https://www.youtube.com/watch?v=rxrOaZJn-Ds
 
-[![Video](https://img.youtube.com/vi/[VIDEO]/0.jpg)](https://www.youtube.com/watch?v=[VIDEO])
+[![Video](https://img.youtube.com/vi/rxrOaZJn-Ds/0.jpg)](https://www.youtube.com/watch?v=rxrOaZJn-Ds)
 
 ----------
 
