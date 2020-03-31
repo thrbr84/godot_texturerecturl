@@ -9,6 +9,8 @@ A TextureRectUrl addon to load images from a url
 
 # Funcionalidades:
 - Load image types: JPG/JPEG - PNG - WEBP e BASE64
+- Preload the imagem in editor
+- Ever load from cache after the first download of the image
 - Show the progress bar with over color, position and size options
 - Save the image in cache(local) to access offline after the first load of the image
 - Emit signal: "loaded" at the finish loading, with the parameters: image texture and if is loaded from cache

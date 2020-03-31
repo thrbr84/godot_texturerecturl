@@ -9,9 +9,11 @@ Um addon TextureRectUrl para carregar imagens de uma url:
 
 # Funcionalidades:
 - Carrega imagens: JPG/JPEG - PNG - WEBP e BASE64
+- Pré-carrega uma imagem mesmo em tempo de editor
+- Opção para sempre carregar do cache após o primeiro carregamento
 - Mostra barra de progresso, com cor de sobreposição, posição e tamanho
 - Salva imagem em cache(local) para acesso offline após acesso pela primeira vez
-- Emite sinal: "loaded" quando termina de carregar uma imagem, com os parâmetros: iamgem e se carregou do cache
+- Emite sinal: "loaded" quando termina de carregar uma imagem, com os parâmetros: imagem e se carregou do cache
 - Emite sinal: "progress" com o percentual de 0 à 100 (int)
 
 ----------

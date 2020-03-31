@@ -22,6 +22,13 @@ func _ready():
 
 func _on_TextureRectUrl_loaded(_image, _fromCache):
 	$TextureRectUrl/anim.play(\"init\")
+	
+	if _fromCache:
+		yield(get_tree().create_timer(.1),\"timeout\")
+		$fromUrl.text = \"loaded from cache!\"
+	else:
+		$fromUrl.text = $TextureRectUrl.textureUrl
+		
 
 func _on_btnImage_pressed(tipo):
 	$TextureRectUrl/anim.stop(true)
@@ -99,6 +106,7 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+everCache = true
 preloadImage = false
 progressbarRect = Rect2( 0, 0, 0, 30 )
 progressbarColor = Color( 0.984314, 0.0392157, 0.0392157, 0.682353 )

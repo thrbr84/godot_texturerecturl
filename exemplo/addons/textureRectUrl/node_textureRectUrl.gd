@@ -9,6 +9,7 @@ var file_ext = ""
 
 export var textureUrl = "" setget _setTextureUrl
 export(bool) var storeCache = true
+export(bool) var everCache = false # Ever load from cache after the first acess
 export(bool) var preloadImage = true setget _setPreloadImage
 export(bool) var progressbar = true setget _setProgressbar
 export(Rect2) var progressbarRect = Rect2(0,0,0,0)
@@ -70,6 +71,9 @@ func _loadImage():
 			if !Engine.is_editor_hint():
 				progress_texture.hide()
 				emit_signal("loaded", _texture, true)
+				
+				if everCache:
+					return
 	
 	var file_name_stripped = file_name.split("?")[0]
 	var ext = file_name_stripped.split(".")
