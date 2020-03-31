@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scripts/TextureRect.gd" type="Script" id=1]
+[ext_resource path="res://assets/rect.png" type="Texture" id=3]
+
+[node name="TextureRectUrl" type="TextureRect"]
+margin_right = 177.0
+margin_bottom = 172.0
+expand = true
+stretch_mode = 6
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="progress_texture" type="TextureProgress" parent="."]
+visible = false
+margin_right = 177.0
+margin_bottom = 172.0
+texture_progress = ExtResource( 3 )
+tint_under = Color( 0.0784314, 0.34902, 0.862745, 1 )
+tint_progress = Color( 0.85098, 0.137255, 0.137255, 1 )
+nine_patch_stretch = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
